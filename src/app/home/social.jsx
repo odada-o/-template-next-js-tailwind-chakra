@@ -69,8 +69,8 @@ const cardData2 = [
 
 const Social = () => {
     return (
-        <Container>
-            <SimpleGrid columns={{ base: 1, md: 2, lg: 4 }} className='gap-3'>
+        <div className='container'>
+            <SimpleGrid columns={{ base: 1, md: 2, lg: 4 }} className='gap-4'>
                 {cardData.map((card, index) => (
                     <Card key={card.id} maxW='xl' bgColor="gray.100">
                         <CardBody className='flex flex-col gap-4'>
@@ -104,7 +104,7 @@ const Social = () => {
             </SimpleGrid>
             <SimpleGrid columns={{base: 1, xl: 2}} className='gap-4 mt-4'>
                 {cardData2.map((card) => (
-                    <Card key={card.id} bgColor="red.100">
+                    <Card key={card.id} bgColor="gray.100">
                     <CardBody className='flex flex-col md:flex-row gap-4'>
                         <Image
                             className='w-1/3'
@@ -132,7 +132,7 @@ const Social = () => {
                 </Card>
                 ))}
             </SimpleGrid>
-        </Container>
+        </div>
     );
 };
 

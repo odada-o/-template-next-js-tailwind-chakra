@@ -10,7 +10,7 @@ import ListSwiper from '@/components/list/ListSwiper'
 
 const Home = () => {
   return (
-    <>
+    <div className='flex flex-col gap-40'>
       <Hero2 />
       <Social />
       <ListSwiper />
@@ -18,7 +18,7 @@ const Home = () => {
       <Bento />
       <IntroSwiper />
       <News mockNews={mockNews} title="뉴스" />
-    </>
+    </div>
   )
 }
 
