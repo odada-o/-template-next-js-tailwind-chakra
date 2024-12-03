@@ -6,12 +6,14 @@ import Hero from './hero'
 import Bento from './bento'
 import Hero2 from './hero2'
 import Social from './social'
+import ListSwiper from '@/components/list/ListSwiper'
 
 const Home = () => {
   return (
     <>
       <Hero2 />
       <Social />
+      <ListSwiper />
       {/* <Hero /> */}
       <Bento />
       <IntroSwiper />
