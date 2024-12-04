@@ -7,6 +7,7 @@ import Navigation from './Navigation';
 import Image from 'next/image';
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
 import { Dialog, DialogPanel } from '@headlessui/react';
+import Logo from '@/components/common/Logo';
 
 const navigation = [
   { name: 'Product', href: '#' },
@@ -35,6 +36,7 @@ const Header = ({type = "type1", title, sharing, prev }) => {
                         width={32} height={32}
                         className="h-8 w-auto"
                       />
+                      <Logo size={32} />
                     </a>
                   </h1>
                   <div className="flex lg:hidden">
