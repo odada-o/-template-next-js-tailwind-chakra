@@ -36,7 +36,7 @@ const Header = ({type = "type1", title, sharing, prev }) => {
                         width={32} height={32}
                         className="h-8 w-auto"
                       />
-                      <Logo size={32} />
+                      <Logo size={8} />
                     </a>
                   </h1>
                   <div className="flex lg:hidden">
